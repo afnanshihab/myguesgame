@@ -25,15 +25,24 @@ header img {
 
   
   p {
+    line-height: 2.5;
+    text-align:center
+  }
+
+ li {
     line-height: 1.5;
     text-align:center
+  }
+  li {
+    background-color: #f3f0d7;
+    color:#C71585;
   }
 
   main section:nth-child(1) p {
     color: #5e454b;
    }
   
-  main section:nth-child(3) p {
+  main section:nth-child(2) p {
     margin-bottom: 5px; 
   }
  
@@ -42,15 +51,15 @@ header img {
     color: #4B0082;
   }
   
-  main section:nth-child(3) p:nth-child(2) {
-    background-color: #f3f0d7;
-    color:#C71585;
+  main section:nth-child(4) p:nth-child(1) {
+    background-color: #C71585;
+    color : #f3f0d7;
   }
   
-  main section:nth-child(3) p:nth-child(3) {
-    background-color: #d8b384;
-    color: #5e454b;
-  }
+  section:nth-child(1) img {
+  display: inline-block;
+  padding: 10px;
+  } 
   
   main section:nth-child(3) p:nth-child(4) {
     background-color: #5e454b;
@@ -64,8 +73,9 @@ header img {
   
   main section:nth-child(2) p {
     text-indent: 50px; 
-    /* margin-left: 50px; */
+    
   }
   footer {
     text-align: center;
+    color : #228B22;
 }
